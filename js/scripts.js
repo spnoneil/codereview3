@@ -29,6 +29,6 @@ $(document).ready(function() {
         let roboger = parseInt($("input#robo").val());
         let results = robo(roboger);
         $("#answer").text(results);
-        $("#answer").toggle();
+        $("#answer").show();
     });
 });
